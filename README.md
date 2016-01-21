@@ -1,8 +1,16 @@
 #Redbird Reverse Proxy
 ##with built in Cluster and Docker support.
 
+WARNING
+========
+This is just a temporary fix until http-proxy is patched for a bug while doing NTLM auth. 
 
-![redbird](http://cliparts.co/cliparts/6cr/o9d/6cro9dRzi.jpg)
+I've included the NTLM proxy.on code for convenience, but please don't rely upon this package.
+
+
+
+
+
 
 Handling dynamic virtual hosts, load balancing, proxying web sockets and SSL encryption should be
 easy and robust.
